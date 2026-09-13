@@ -58,3 +58,8 @@ src/
 ├── App.jsx
 └── main.jsx
 ```
+## Next step
+
+- User-submitted locations — let people add toilets that aren't officially public, including more low-key/semi-private spots, so the list stays useful to people who genuinely need it rather than becoming public knowledge
+- Paid/gated submissions — a small fee to add or unlock certain locations, as a natural filter for real intent
+- Ratings & reviews — a cleanliness score plus short written reviews per location, visible before someone commits to a trip
