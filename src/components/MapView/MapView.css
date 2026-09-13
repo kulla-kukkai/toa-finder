@@ -1,0 +1,41 @@
+.map-view {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--color-line);
+  height: 560px;
+}
+
+.map-view__container {
+  width: 100%;
+  height: 100%;
+}
+
+.map-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.8rem;
+  box-shadow: 0 2px 6px rgba(23, 38, 42, 0.25);
+}
+
+.map-marker--user {
+  background: var(--color-teal);
+  color: white;
+  border: 2px solid var(--color-surface);
+}
+
+.map-marker--toilet {
+  background: var(--color-yellow);
+  border: 2px solid var(--color-surface);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 800px) {
+  .map-view {
+    height: 340px;
+  }
+}

@@ -1,0 +1,30 @@
+.status {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 var(--space-5) var(--space-3);
+  font-weight: 600;
+}
+
+.status--busy {
+  color: var(--color-teal-ink);
+}
+
+.status--error {
+  color: var(--color-pink-ink);
+}
+
+.status--empty {
+  color: var(--color-ink-soft);
+  font-weight: 400;
+}
+
+.status--success {
+  color: var(--color-ink-soft);
+  font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  .status {
+    padding: 0 var(--space-3) var(--space-3);
+  }
+}

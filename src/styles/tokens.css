@@ -1,0 +1,35 @@
+:root {
+  /* Color */
+  --color-bg: #eef6f3;
+  --color-surface: #ffffff;
+  --color-ink: #17262a;
+  --color-ink-soft: #4f6367;
+  --color-line: #d9e6e2;
+
+  --color-yellow: #ffc857;
+  --color-yellow-ink: #6b4a06;
+  --color-pink: #ff7ca3;
+  --color-pink-ink: #7a1638;
+  --color-teal: #2ec4b6;
+  --color-teal-ink: #0b4640;
+
+  /* Type */
+  --font-display: 'Baloo 2', system-ui, sans-serif;
+  --font-body: 'Nunito Sans', system-ui, sans-serif;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 40px;
+  --space-6: 64px;
+
+  /* Shape */
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 32px;
+
+  /* Elevation */
+  --shadow-soft: 0 10px 30px rgba(23, 38, 42, 0.08);
+}

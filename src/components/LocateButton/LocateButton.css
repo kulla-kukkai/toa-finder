@@ -1,0 +1,48 @@
+.locate-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  background: var(--color-yellow);
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  box-shadow: 0 6px 0 var(--color-yellow-ink), var(--shadow-soft);
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.locate-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.locate-button:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 var(--color-yellow-ink);
+}
+
+.locate-button:disabled {
+  cursor: progress;
+  opacity: 0.85;
+}
+
+.locate-button__icon {
+  font-size: 1.1rem;
+}
+
+.locate-button[aria-busy='true'] .locate-button__icon {
+  animation: locate-spin 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes locate-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
